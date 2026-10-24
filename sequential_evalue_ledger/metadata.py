@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Suivre une preuve séquentielle sans transformer chaque arrêt en test fixe', 'en': 'Track sequential evidence without treating every stopping point as a fixed test', 'es': 'Seguir evidencia secuencial sin tratar cada parada como prueba fija'}

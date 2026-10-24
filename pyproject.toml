@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sequential-evalue-ledger"
+version = "0.1.0a1"
+description = "FR: Suivre une preuve séquentielle sans transformer chaque arrêt en test fixe | EN: Track sequential evidence without treating every stopping point as a fixed test | ES: Seguir evidencia secuencial sin tratar cada parada como prueba fija"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+sequential-evalue-ledger = "sequential_evalue_ledger.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["sequential_evalue_ledger*"]
